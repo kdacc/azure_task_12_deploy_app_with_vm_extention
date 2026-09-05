@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Script to silently install and start the todo web app on the virtual machine. 
 # Note that all commands bellow are without sudo - that's because extention mechanism 
@@ -8,7 +9,7 @@
 # used to suppress any interactive prompts - we won't be able to confirm operation 
 # when running the script as VM extention.  
 apt-get update -yq
-apt-get install python3-pip -yq
+apt-get install -yq git python3-pip
 
 # Create a directory for the app and download the files. 
 mkdir /app 
