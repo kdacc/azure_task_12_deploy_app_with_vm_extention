@@ -41,7 +41,7 @@ New-AzVm `
 
 # ↓↓↓ Write your code here ↓↓↓
 $Params = @{
-    ResourceGroupName  = "mate-azure-task-12"
+    ResourceGroupName  = "mate-resources"
     VMName             = "matebox"
     Name               = 'CustomScript'
     Publisher          = 'Microsoft.Azure.Extensions'
