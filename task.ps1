@@ -1,5 +1,5 @@
 $location = "denmarkeast"
-$resourceGroupName = "mate-azure-task-12"
+$resourceGroupName = "mate-resources"
 $networkSecurityGroupName = "defaultnsg"
 $virtualNetworkName = "vnet"
 $subnetName = "default"
